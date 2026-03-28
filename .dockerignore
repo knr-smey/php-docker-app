@@ -1,0 +1,21 @@
+# Ignore node_modules, logs, and build artifacts
+node_modules/
+*.log
+dist/
+build/
+.env
+.DS_Store
+.git
+.gitignore
+docker-compose.override.yml
+Dockerfile*
+*.md
+*.zip
+*.tar.gz
+.idea/
+.vscode/
+*.swp
+*.tmp
+*.bak
+composer.lock
+vendor/

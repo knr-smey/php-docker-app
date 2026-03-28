@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  php:
+    build: .
+    container_name: php_app
+    ports:
+      - "8002:80"
+    volumes:
+      - ./src:/var/www/html
